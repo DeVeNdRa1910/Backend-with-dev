@@ -128,7 +128,7 @@ const randomData = [
   ]
 
   app.get('/apiData' , (req , res) => {
-    console.log(randomData);
+    res.send(randomData);
   })
 
 app.get('/greet', (req , res) => {
